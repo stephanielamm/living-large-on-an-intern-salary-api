@@ -12,7 +12,18 @@ class DowntownTable extends Migration
      */
     public function up()
     {
-        //
+      Schema::create('downtown', function (Blueprint $table) {
+        $table->increments('id');
+        $table->string('name');
+        $table->string('address');
+        $table->integer('bedrooms');
+        $table->integer('bathrooms');
+        $table->integer('price');
+        $table->integer('distance');
+        $table->integer('petfee');
+        $table->boolean('shortterm');
+        $table->timestamps();
+      });
     }
 
     /**
@@ -22,6 +33,6 @@ class DowntownTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('downtown');
     }
 }
