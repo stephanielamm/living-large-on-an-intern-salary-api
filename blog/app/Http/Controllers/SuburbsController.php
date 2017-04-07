@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Suburbs;
+use App\Suburb;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Response;
