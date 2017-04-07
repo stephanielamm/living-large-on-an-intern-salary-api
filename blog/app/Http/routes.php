@@ -23,3 +23,21 @@ Route::post('/suburbs', 'SuburbsController@create');
 Route::get('/suburbs/{id}', 'SuburbsController@show');
 Route::put('/suburbs/{id}', 'SuburbsController@update');
 Route::delete('/suburbs/{id}', 'SuburbsController@destroy');
+
+// All Downtown routes
+Route::get('/downtown', 'DowntownController@index');
+Route::post('/downtown', 'DowntownController@create');
+
+// Singular Downtown routes
+Route::get('/downtown/{id}', 'DowntownController@show');
+Route::put('/downtown/{id}', 'DowntownController@update');
+Route::delete('/downtown/{id}', 'DowntownController@destroy');
+
+// All Midtown routes
+Route::get('/midtown', 'MidtownController@index');
+Route::post('/midtown', 'MidtownController@create');
+
+// Singular Midtown routes
+Route::get('/midtown/{id}', 'MidtownController@show');
+Route::put('/midtown/{id}', 'MidtownController@update');
+Route::delete('/midtown/{id}', 'MidtownController@destroy');
