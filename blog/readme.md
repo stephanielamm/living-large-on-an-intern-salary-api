@@ -12,9 +12,9 @@ This API was built using PHP with Laravel as the framework. Users are able to cr
 ------
 1. Clone this repository.
 
-2. Download Composer
+2. Download Composer.
 
-3. Download and Launch MAMP
+3. Download and Launch MAMP.
 
 4. In MAMP, go to 'Preferences'>'Web Server' and set the document root to the 'Public' folder within the downloaded repository.
 

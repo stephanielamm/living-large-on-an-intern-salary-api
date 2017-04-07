@@ -12,5 +12,5 @@ use App\Http\Requests;
 class MidtownController extends Controller
 {
 
-  }
+  
 }
