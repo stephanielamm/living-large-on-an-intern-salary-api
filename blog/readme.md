@@ -12,9 +12,9 @@ This API was built using PHP with Laravel as the framework. Users are able to cr
 ------
 1. Clone this repository.
 
-2. Download Composer.
+2. Download composer following the instructions here: https://getcomposer.org/download/
 
-3. Download and Launch MAMP.
+3. Download and Launch MAMP following the instructions here: https://www.mamp.info/en/
 
 4. In MAMP, go to 'Preferences'>'Web Server' and set the document root to the 'Public' folder within the downloaded repository.
 
@@ -24,12 +24,16 @@ This API was built using PHP with Laravel as the framework. Users are able to cr
 
 7. From the MAMP landing page, go to phpMyAdmin and create a database called 'app.'
 
-7. Open browser to 'localhost:8888.'
+8. Open the Terminal, CD into the downloaded repository and run 'php artisan:migrate.'
+
+9. Open the browser to localhost:8888
+
+10. Use Advanced REST Client or another application to Get, Post, Put and Delete items in the database. 
 
 
 ## Documentation
 ------
-View API documentation here (https://stephanielamm.gitbooks.io/housing-choice-api).
+View API documentation here https://stephanielamm.gitbooks.io/housing-choice-api.
 
 ## More from Stephanie Lamm
 ------
