@@ -72,7 +72,8 @@
         <div class="links">
                     <a href="https://stephanielamm.gitbooks.io/housing-choice-api" target="_blank">Documentation</a> |
                     <a href="https://github.com/stephanielamm" target="_blank">GitHub</a> |
-                    <a href="http://www.stephanielamm.com" target="_blank">Portfolio</a>
+                    <a href="http://www.stephanielamm.com" target="_blank">Portfolio</a> |
+                    <a href="http://www.laravel.com" target="_blank">Laravel</a>
           </div>
     </body>
 </html>

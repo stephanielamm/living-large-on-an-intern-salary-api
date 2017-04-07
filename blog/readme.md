@@ -1,5 +1,5 @@
 # Living Large On An Intern Salary- An API for choosing a place to live
-------
+
 I created this application as I was looking for a place to live after graduation. After a few weeks of trying to work with a messy Google doc and spreadsheet, I thought I could code a way to keep track of my housing preferences.
 
 This application allows users to store information such as location, price, bedrooms, bathrooms and distance to work in one database.
@@ -9,7 +9,7 @@ I have divided my housing preferences into three categories: downtown, midtown a
 This API was built using PHP with Laravel as the framework. Users are able to create, read, update and delete items from the database via AJAX.
 
 ## Installation
-------
+
 1. Clone this repository.
 
 2. Download composer following the instructions here: https://getcomposer.org/download/
@@ -28,13 +28,13 @@ This API was built using PHP with Laravel as the framework. Users are able to cr
 
 9. Open the browser to localhost:8888
 
-10. Use Advanced REST Client or another application to Get, Post, Put and Delete items in the database. 
+10. Use Advanced REST Client or another application to Get, Post, Put and Delete items in the database.
 
 
 ## Documentation
-------
+
 View API documentation here https://stephanielamm.gitbooks.io/housing-choice-api.
 
 ## More from Stephanie Lamm
-------
+
 View my portfolio at http://www.stephanielamm.com.
