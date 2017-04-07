@@ -1,27 +1,36 @@
-# Laravel PHP Framework
+# Living Large On An Intern Salary- An API for choosing a place to live
+------
+I created this application as I was looking for a place to live after graduation. After a few weeks of trying to work with a messy Google doc and spreadsheet, I thought I could code a way to keep track of my housing preferences.
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+This application allows users to store information such as location, price, bedrooms, bathrooms and distance to work in one database.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+I have divided my housing preferences into three categories: downtown, midtown and suburban.
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+This API was built using PHP with Laravel as the framework. Users are able to create, read, update and delete items from the database via AJAX.
 
-## Official Documentation
+## Installation
+------
+1. Clone this repository.
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+2. Download Composer
 
-## Contributing
+3. Download and Launch MAMP
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+4. In MAMP, go to 'Preferences'>'Web Server' and set the document root to the 'Public' folder within the downloaded repository.
 
-## Security Vulnerabilities
+5. Still in MAMP's Preferences, go to 'Ports' and set the Apache Port to 8888.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+6. Start the MAMP server.
 
-## License
+7. From the MAMP landing page, go to phpMyAdmin and create a database called 'app.'
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+7. Open browser to 'localhost:8888.'
+
+
+## Documentation
+------
+View API documentation here (https://stephanielamm.gitbooks.io/housing-choice-api).
+
+## More from Stephanie Lamm
+------
+View my portfolio at http://www.stephanielamm.com.
